@@ -1,0 +1,196 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backup
+.env.old
+.env.save
+.env.swp
+.env.swo
+!.env.example
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE and Editors
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+*.code-workspace
+.history/
+.vscode-test/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+temp/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Package manager locks (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# React / Frontend specific
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.turbo/
+frontend/.swc/
+frontend/.storybook-out/
+frontend/storybook-static/
+
+# Backend specific
+backend/logs/
+backend/uploads/
+backend/temp/
+backend/*.log
+backend/.cache/
+backend/.turbo/
+backend/dist/
+backend/.nyc_output/
+
+# Security & Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+*.der
+*.jks
+secrets/
+*.secret
+credentials.json
+service-account*.json
+
+# Deployment platforms
+.vercel/
+.netlify/
+.serverless/
+.firebase/
+.firebaserc
+.railway/
+.render/
+amplify/
+.aws-sam/
+
+# Build tools & Cache
+.turbo/
+.parcel-cache/
+.svelte-kit/
+.expo/
+.expo-shared/
+.swc/
+.pnp.*
+.yarn/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+.stylelintcache
+.stylelintcache.json
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Storybook
+storybook-static/
+.out/
+
+# PWA & Service Workers
+sw.js
+sw.js.map
+workbox-*.js
+workbox-*.js.map
+precache-manifest.*.js
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.#*
+#*#
+.*.swp
+.*.swo
+
